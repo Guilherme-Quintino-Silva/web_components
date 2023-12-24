@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/cards.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/cards.css" />
     <script src="src/Components/CardNews.js" defer></script>
     <script src="src/Components/TituloDinamico.js" defer></script>
     <title>Portal de notícias galácticas</title>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By Guilherme Quintino</span>
-                <a href="#">Naruto contrara Devs</a>
-                <p>Naruto participa da guerra ninja.</p>
-            </div>
-            <div class="card__right">
-                <img src="assets/naruto.jpg" alt="">
-            </div>
-        </div>
+  <body>
+    <div class="app-root">
+      <card-news
+        autor="Guilherme Quintino"
+        title="Naruto contrara Devs"
+        link-url="www.google.com"
+        photo="assets/naruto.jpg"
+        content="Naruto participa da guerra ninja."
+      ></card-news>
+
+      <card-news
+      autor="Guilherme Quintino"
+      title="Sakura é a nova PO dos Devs"
+      link-url="www.google.com/sakura.po"
+      photo="assets/sakura.jpg"
+      content="Sakura também vai para a guerra ninja."
+    ></card-news>
     </div>
-    <card-news></card-news>
-</body>
-
+  </body>
 </html>
