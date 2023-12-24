@@ -8,7 +8,7 @@
 
 <body>
 <h1>Blog da guerra ninja.</h1>
-<h2>A principal premissa é a criação de Web Componentes customizados há partir da Shadow DOM.</h2>
+<h4>A principal premissa é a criação de Web Componentes customizados à partir da Shadow DOM.</h4>
 <ol>
   <li>Etapa da criação do componente customizado concluída.</li>
   <li>Etapa da criação de estilos via Shadow DOM concluída.</li>
